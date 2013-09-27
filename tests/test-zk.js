@@ -27,7 +27,7 @@ exports['tearDown'] = function(test, assert) {
 
   test.finish();
 };
-
+console.log('xxxx');
 
 exports['test_simple_connection'] = function(test, assert) {
   var zk = new ZkClient([ZK_URL]);

@@ -9,7 +9,7 @@ else
   TIMEOUT=50000
   DEPENDENCIES_FILE="tests/dependencies.json"
 fi
-
+echo $TEST_FILES
 NODE_PATH=lib node_modules/whiskey/bin/whiskey \
   --tests "${TEST_FILES}" \
   --timeout ${TIMEOUT} \
